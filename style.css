@@ -11,5 +11,22 @@
 
  .front-page video{
      width: 100%;
-     height: 100vh;
+     height: 100%;
+     object-fit: cover;
  }
+
+ .intro-text, 
+ .icon{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .blend{
+     width: 100%;
+     height: 100vh;
+     background: black;
+     position: absolute;
+     opacity: 0.3;
+    }
