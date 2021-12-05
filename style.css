@@ -15,7 +15,9 @@
      height: 100%;
      object-fit: cover;
  }
-
+ .intro-text{
+    font-family: 'Quicksand', sans-serif;
+ }
  .intro-text, 
  .icon{
      position: absolute;
